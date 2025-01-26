@@ -9,7 +9,7 @@
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "generate-pwa-icons": "pwa-assets-generator",
-    "release": "release-it"
+    "release": "release-it --no-git.requireUpstream"
   },
   "dependencies": {
     "react": "^18.3.1",

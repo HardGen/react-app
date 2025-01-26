@@ -2,6 +2,6 @@
   "$schema": "https://unpkg.com/release-it/schema/release-it.json",
   "github": {
     "release": true,
-    "pushRepo": "https://github.com/HardGen/react-app.git"
+    "requireUpstream": false
   }
 }

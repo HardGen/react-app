@@ -3,6 +3,7 @@ import './App.css'
 import 'react-calendar/dist/Calendar.css';
 import { Link, Route } from "wouter";
 import Form from './Snapshot/Form';
+import ClockContainer from './Clock';
 
 function createConnection(options) {
   const connection = new WebSocket('wss://echo.websocket.org');
@@ -98,10 +99,12 @@ function Profile() {
     <div>
       <h1>Profile</h1>
       <Counter />
+      <ClockContainer />
       <input value={value} onInput={(e) => setValue(e.currentTarget.value)} />
     </div>
   )
 }
+
 
 function App() {
   return (

@@ -12,3 +12,8 @@
 .tile.react-calendar__tile--now {
   border: 2px dashed wheat;
 }
+
+
+.body {
+  background-color: rebeccapurple;
+}
